@@ -1,7 +1,7 @@
 package cse512
 
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession
+import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
 
 object Entrance extends App {
   Logger.getLogger("org.spark_project").setLevel(Level.WARN)
